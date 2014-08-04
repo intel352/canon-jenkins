@@ -78,12 +78,16 @@ a.model-link.inside {
 /* Padding to space left-side panel away from main table */
 #side-panel {
     padding-right: 20px;
+    width:15%;
+    float:left
 }
 /* Background and shadow for main panel */
 #main-panel {
     background: none repeat scroll 0 0 #FFFFFF;
     box-shadow: 0 3px 8px 1px #C2C2C2;
     padding: 10px 20px;
+    width:80%;
+    float:left;
 }
 /* Default styling for project table cells */
 #projectstatus th,
